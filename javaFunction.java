@@ -98,3 +98,15 @@ public static boolean findEvent(int number) {
 	}
 	return false;
 }
+
+
+
+//判断字符串是否是整数
+public static boolean isInt(String input) {
+   return input.matches("\\d+");
+}
+
+//判断字符串是否是实数
+public static boolean isFloat(String input) {
+   return input.matches("\\d+\\.\\d*");
+}
